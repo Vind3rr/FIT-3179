@@ -31,7 +31,7 @@ footer { color:#6b7280; font-size:12px; margin-top:.75rem }
 </div>
 
 <script>
-vegaEmbed('#choropleth_map', 'js/choropleth_map.vg.json', {
+vegaEmbed('#choropleth_map', 'choropleth_map.vg.json?v=' + Date.now(), {
 actions: false,
 bind: '#controls'
 }).catch(console.error);
